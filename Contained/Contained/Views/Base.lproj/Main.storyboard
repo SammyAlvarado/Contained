@@ -10,7 +10,6 @@
         <!--Play-->
         <scene sceneID="w4W-h0-Huz">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zVd-4Z-9mB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="bjE-fN-87D" customClass="GameViewController" customModule="Contained" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gPM-ze-m28">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -30,7 +29,11 @@
                         <viewLayoutGuide key="safeArea" id="Uun-hj-ZmF"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Play" image="game_controller" selectedImage="game_controller" id="Xlf-OZ-MLU"/>
+                    <connections>
+                        <outlet property="skview" destination="o6a-mx-FL6" id="Qgo-fy-524"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zVd-4Z-9mB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="533" y="220"/>
         </scene>
@@ -130,6 +133,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="kqp-Lp-gfw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mmf-kf-9jw">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
