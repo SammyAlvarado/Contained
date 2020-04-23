@@ -14,11 +14,23 @@
                     <view key="view" contentMode="scaleToFill" id="1q9-0b-JHj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crabs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tOe-7L-6KA">
+                                <rect key="frame" x="146" y="419" width="133" height="58"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="tOe-7L-6KA" firstAttribute="leading" secondItem="yMo-Tn-QdG" secondAttribute="leading" constant="146" id="HW9-Gb-00U"/>
+                            <constraint firstItem="tOe-7L-6KA" firstAttribute="top" secondItem="yMo-Tn-QdG" secondAttribute="top" constant="331" id="gU2-rU-sg1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yMo-Tn-QdG"/>
                     </view>
                     <navigationItem key="navigationItem" id="WPW-T3-mPV">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="KhT-uM-CEU">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="KhT-uM-CEU">
                             <connections>
                                 <segue destination="umn-rE-Lzs" kind="show" id="mNF-eP-qcr"/>
                             </connections>
@@ -36,11 +48,25 @@
                     <view key="view" contentMode="scaleToFill" id="2bB-0i-lRg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qe2-db-wyi">
+                                <rect key="frame" x="145" y="434" width="125" height="29"/>
+                                <string key="text">Tap to move 
+the crab</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Qe2-db-wyi" firstAttribute="top" secondItem="xhs-aR-sNi" secondAttribute="top" constant="346" id="TKq-LS-Slw"/>
+                            <constraint firstItem="Qe2-db-wyi" firstAttribute="leading" secondItem="xhs-aR-sNi" secondAttribute="leading" constant="145" id="yr3-Tc-3at"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="xhs-aR-sNi"/>
                     </view>
                     <navigationItem key="navigationItem" id="dvj-xZ-q1j">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="8Eu-N7-gFn">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="8Eu-N7-gFn">
                             <connections>
                                 <segue destination="ePs-gc-I6E" kind="show" id="qWP-EH-5NR"/>
                             </connections>
@@ -49,7 +75,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dgg-CK-LAr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1949" y="110"/>
+            <point key="canvasLocation" x="1947.826086956522" y="109.82142857142857"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="kBs-un-nuc">
@@ -58,11 +84,27 @@
                     <view key="view" contentMode="scaleToFill" id="OC7-I4-qD9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's play!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTI-VH-xXC">
+                                <rect key="frame" x="145" y="434" width="105" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="JTI-VH-xXC" firstAttribute="top" secondItem="XVe-pj-0CL" secondAttribute="top" constant="346" id="Qz0-48-2tI"/>
+                            <constraint firstItem="JTI-VH-xXC" firstAttribute="leading" secondItem="XVe-pj-0CL" secondAttribute="leading" constant="145" id="Z48-v1-YAj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="XVe-pj-0CL"/>
                     </view>
                     <navigationItem key="navigationItem" id="jib-zS-c7a">
-                        <barButtonItem key="rightBarButtonItem" title="Done" id="077-EO-2FG"/>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="077-EO-2FG">
+                            <connections>
+                                <action selector="done:" destination="ePs-gc-I6E" id="BKE-FD-DSL"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zxu-qV-SCO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

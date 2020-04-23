@@ -42,47 +42,47 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="nUA-6Z-EdO">
-                                <rect key="frame" x="147" y="381" width="121" height="133"/>
+                                <rect key="frame" x="116" y="382" width="183" height="133"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="oNO-l8-eOY">
-                                        <rect key="frame" x="0.0" y="0.0" width="121" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="183" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roll" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h43-8S-tJr">
-                                                <rect key="frame" x="0.0" y="0.0" width="42" height="31"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Roll" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h43-8S-tJr">
+                                                <rect key="frame" x="0.0" y="0.0" width="104" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AZq-uA-63f">
-                                                <rect key="frame" x="72" y="0.0" width="51" height="31"/>
+                                                <rect key="frame" x="134" y="0.0" width="51" height="31"/>
                                             </switch>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="2J0-Dp-QKA">
-                                        <rect key="frame" x="0.0" y="51" width="121" height="31"/>
+                                        <rect key="frame" x="0.0" y="51" width="183" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Zoom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-ns-shD">
-                                                <rect key="frame" x="0.0" y="0.0" width="42" height="31"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zoom" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sHf-ns-shD">
+                                                <rect key="frame" x="0.0" y="0.0" width="104" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="djZ-vp-rm2">
-                                                <rect key="frame" x="72" y="0.0" width="51" height="31"/>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="djZ-vp-rm2">
+                                                <rect key="frame" x="134" y="0.0" width="51" height="31"/>
                                             </switch>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="xuh-VT-bnV">
-                                        <rect key="frame" x="0.0" y="102" width="121" height="31"/>
+                                        <rect key="frame" x="0.0" y="102" width="183" height="31"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Happy Crab?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGz-Bz-NvC">
-                                                <rect key="frame" x="0.0" y="0.0" width="42" height="31"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Happy Crab? " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGz-Bz-NvC">
+                                                <rect key="frame" x="0.0" y="0.0" width="104" height="31"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JId-U9-pLL">
-                                                <rect key="frame" x="72" y="0.0" width="51" height="31"/>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JId-U9-pLL">
+                                                <rect key="frame" x="134" y="0.0" width="51" height="31"/>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -91,10 +91,10 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="YaX-nW-mdh" firstAttribute="bottom" secondItem="nUA-6Z-EdO" secondAttribute="bottom" constant="299" id="2RZ-Co-7LJ"/>
-                            <constraint firstItem="nUA-6Z-EdO" firstAttribute="top" secondItem="YaX-nW-mdh" secondAttribute="top" constant="337" id="Pdh-Ym-5p1"/>
-                            <constraint firstItem="YaX-nW-mdh" firstAttribute="trailing" secondItem="nUA-6Z-EdO" secondAttribute="trailing" constant="146" id="kQe-NB-dV0"/>
-                            <constraint firstItem="nUA-6Z-EdO" firstAttribute="leading" secondItem="YaX-nW-mdh" secondAttribute="leading" constant="147" id="q0u-SR-ovu"/>
+                            <constraint firstItem="nUA-6Z-EdO" firstAttribute="leading" secondItem="YaX-nW-mdh" secondAttribute="leading" constant="116" id="DWh-Kb-7tb"/>
+                            <constraint firstItem="YaX-nW-mdh" firstAttribute="bottom" secondItem="nUA-6Z-EdO" secondAttribute="bottom" constant="298" id="KuP-0A-hWD"/>
+                            <constraint firstItem="nUA-6Z-EdO" firstAttribute="top" secondItem="YaX-nW-mdh" secondAttribute="top" constant="338" id="Z51-eA-abo"/>
+                            <constraint firstItem="YaX-nW-mdh" firstAttribute="trailing" secondItem="nUA-6Z-EdO" secondAttribute="trailing" constant="115" id="iAK-e7-Mid"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YaX-nW-mdh"/>
                     </view>
@@ -102,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vQI-61-C3l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2432" y="220"/>
+            <point key="canvasLocation" x="2431.8840579710145" y="219.64285714285714"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="vPW-Wf-Fwh">
