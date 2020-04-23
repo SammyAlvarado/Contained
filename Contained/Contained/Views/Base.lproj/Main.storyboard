@@ -15,7 +15,18 @@
                     <view key="view" contentMode="scaleToFill" id="gPM-ze-m28">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <skView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o6a-mx-FL6">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </skView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Uun-hj-ZmF" firstAttribute="trailing" secondItem="o6a-mx-FL6" secondAttribute="trailing" id="Xkg-Zt-E8a"/>
+                            <constraint firstItem="Uun-hj-ZmF" firstAttribute="bottom" secondItem="o6a-mx-FL6" secondAttribute="bottom" id="Zg1-nZ-R5m"/>
+                            <constraint firstItem="o6a-mx-FL6" firstAttribute="top" secondItem="Uun-hj-ZmF" secondAttribute="top" id="bqz-DS-OMD"/>
+                            <constraint firstItem="o6a-mx-FL6" firstAttribute="leading" secondItem="Uun-hj-ZmF" secondAttribute="leading" id="cET-6z-5or"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Uun-hj-ZmF"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Play" image="game_controller" selectedImage="game_controller" id="Xlf-OZ-MLU"/>
@@ -53,8 +64,11 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AZq-uA-63f">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AZq-uA-63f">
                                                 <rect key="frame" x="134" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="toggleRoll:" destination="5vT-c3-9rs" eventType="valueChanged" id="QBf-pH-ohG"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -67,8 +81,11 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="djZ-vp-rm2">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="djZ-vp-rm2">
                                                 <rect key="frame" x="134" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="toggleZoom:" destination="5vT-c3-9rs" eventType="valueChanged" id="CcF-AN-Hpt"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
@@ -81,8 +98,11 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JId-U9-pLL">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JId-U9-pLL">
                                                 <rect key="frame" x="134" y="0.0" width="51" height="31"/>
+                                                <connections>
+                                                    <action selector="toggleHappyCrab:" destination="5vT-c3-9rs" eventType="valueChanged" id="c9u-Nd-p5U"/>
+                                                </connections>
                                             </switch>
                                         </subviews>
                                     </stackView>
